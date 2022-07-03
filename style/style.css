@@ -284,3 +284,118 @@ body {
   width: 50%;
   z-index: 3;
 }
+
+/* ******** */
+/* Meals Section */
+/* ********* */
+
+.section-meals {
+  height: 100vh;
+  padding: 9.6rem 0;
+  background-color: lightblue;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+
+  border-radius: 1.1rem;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.meal:hover {
+  box-shadow: 0 4.4rem 6.8rem rgba(5, 70, 136, 0.3);
+  transform: translateY(-2rem);
+}
+
+.meal-heading {
+  text-align: center;
+}
+
+/* sdfd */
+
+.meal-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+.meal-description {
+  padding: 2rem 2.4rem;
+}
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meal-attribute {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.meal-img {
+  width: 100%;
+}
+
+.meal-icon {
+  color: var(--mainDark);
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+/* meal tag #vegetarian */
+
+.meal-tags {
+  margin-bottom: 1.5rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  background-color: #51cf66;
+  border-radius: 10rem;
+}
+
+.see-all {
+  margin: 0 auto;
+}
+
+.last-wrapper {
+  margin-top: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  color: var(--mainDark);
+  font-weight: 600;
+}
+
+.arrow-class {
+  width: 3rem;
+  height: 3rem;
+}
+
+.see-all-button {
+  /* height: 10vh; */
+  /* background-color: red; */
+  /* padding-bottom: 4rem; */
+  text-align: center;
+  font-size: 2.4rem;
+  color: var(--mainDark);
+  text-decoration: none;
+  gap: 1rem;
+
+  border-bottom: 3px solid var(--maincolor);
+  padding: 0.5rem 0;
+  transition: all 0.3s;
+}
+
+.see-all-button:hover {
+  border-bottom: 3px solid transparent;
+}
